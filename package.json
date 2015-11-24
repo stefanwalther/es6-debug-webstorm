@@ -1,0 +1,22 @@
+{
+  "name": "es6-debug",
+  "version": "0.1.0",
+  "description": "Just a small test to show how to debug ES6 in Webstorm.",
+  "main": "src/index.js",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.1",
+    "babel-preset-es2015": "^6.1.18",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.0",
+    "gulp-cli": "^1.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha test/index.js"
+  },
+  "author": "Stefan Walther",
+  "license": "MIT"
+}
