@@ -1,4 +1,4 @@
-# Debugging ES6 in Webstorm
+ Debugging ES6 in Webstorm
 
 > Just a short reminder for myself how to get debugging to work in Webstorm with ES6.
 > If it helps also you, then great! ;-)
@@ -127,3 +127,4 @@ But if you hit F8 (Step Over ![](docs/images/step-over-icon.png)) you will then 
 ![](docs/images/step2.png)
 
 We are done, happy debugging in Webstorm!
+You can now set breakpoints in every of the files in the `./src/` folder (containing in this example the es6 files) and they will be hit.
