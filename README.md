@@ -128,3 +128,11 @@ But if you hit F8 (Step Over ![](docs/images/step-over-icon.png)) you will then 
 
 We are done, happy debugging in Webstorm!
 You can now set breakpoints in every of the files in the `./src/` folder (containing in this example the es6 files) and they will be hit.
+
+## Mocha setup
+
+Configure the 
+
+![](docs/images/mocha-webstorm-settings.png)
+
+Most important setting is the "Extra Mocha options" with `--compilers js:babel-core/register`

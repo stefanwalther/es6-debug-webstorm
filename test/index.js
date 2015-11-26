@@ -18,7 +18,8 @@ describe( 'Sample', () => {
 
 	it( 'contains some very great properties', (  ) => {
 
-		expect( sample).to.have.property('prop1');
+		console.log(sample);
+		expect( sample ).to.have.property('prop1');
 
 	} );
 
