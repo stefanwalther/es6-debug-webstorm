@@ -18,7 +18,7 @@ gulp.task('babel', () => {
 			.pipe(sourceMaps.write('.', { sourceRoot: paths.sourceRoot }))
 			.pipe(gulp.dest(paths.es5));
 });
-gulp.task('watch', () => {
+gulp.task('watch', ['babel'], () => {
 	gulp.watch(paths.es6, ['babel']);
 });
 
