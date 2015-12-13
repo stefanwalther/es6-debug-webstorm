@@ -1,4 +1,4 @@
- Debugging ES6 in Webstorm
+# Debugging ES6 in Webstorm
 
 > Just a short reminder for myself how to get debugging to work in Webstorm with ES6.
 > If it helps also you, then great! ;-)
