@@ -16,6 +16,13 @@ package.json
 
 ```
 
+Content of `.babelrc`:
+```js
+{
+ "presets": ["es2015"]
+}
+```
+
 The setup described below uses gulp 3.x to transpile ES6 files to ES5, including source-maps, which can then be used in Webstorm to debug ES6.
 
 **Note:** 
