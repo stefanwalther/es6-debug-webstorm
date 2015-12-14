@@ -39,7 +39,7 @@ Install the required modules as devDependencies:
 
 
 ```bash
-$ npm install babel-core babel-preset-es2015 gulp gulp-babel gulp-sourcemaps
+$ npm install babel-core babel-preset-es2015 gulp gulp-babel gulp-sourcemaps --save-dev
 ```
 **Note:** `babel-core` and `gulp` can and probably should be installed globally.
 
