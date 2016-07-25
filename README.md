@@ -1,6 +1,6 @@
-# Debugging ES6 in Webstorm
+# Debugging ES6 in WebStorm
 
-> Just a short reminder for myself how to get debugging to work in Webstorm with ES6.
+> Just a short reminder for myself how to get debugging to work in WebStorm with ES6.
 > If it helps also you, then great! ;-)
 
 **Folder structure** being used:
@@ -23,7 +23,7 @@ Content of `.babelrc`:
 }
 ```
 
-The setup described below uses gulp 3.x to transpile ES6 files to ES5, including source-maps, which can then be used in Webstorm to debug ES6.
+The setup described below uses gulp 3.x to transpile ES6 files to ES5, including source-maps, which can then be used in WebStorm to debug ES6.
 
 **Note:** 
 As soon as gulp 4.0 is out, some changes are necessary, gulp 4.0 introduces some breaking changes.
@@ -114,26 +114,26 @@ Whenever you make changes, four file will be generated in the `./dist` folder:
 ![](docs/images/generated_files.png)
 
 
-## Debug in Webstorm
-So, now let's have a look how to debug in Webstorm (version 11 is used here):
+## Debug in WebStorm
+So, now let's have a look how to debug in WebStorm (version 11 is used here):
 
 Set a breakpoint:
 - Go to the ./dist folder and create the desired breakpoint:
 
 ![](docs/images/breakpoint.png)
 
-Start the debugger in Webstorm, by right-clicking on `dist/index.js` (not `src/index.js` !!!).
+Start the debugger in WebStorm, by right-clicking on `dist/index.js` (not `src/index.js` !!!).
 
 You will then get:
 
 ![](docs/images/step1.png)
 
-So, not really nice, probably a Webstorm bug.
+So, not really nice, probably a WebStorm bug.
 But if you hit F8 (Step Over ![](docs/images/step-over-icon.png)) you will then get
 
 ![](docs/images/step2.png)
 
-We are done, happy debugging in Webstorm!
+We are done, happy debugging in WebStorm!
 You can now set breakpoints in every of the files in the `./src/` folder (containing in this example the es6 files) and they will be hit.
 
 ## Mocha setup
