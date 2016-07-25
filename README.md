@@ -143,3 +143,8 @@ Configure the
 ![](docs/images/mocha-webstorm-settings.png)
 
 Most important setting is the "Extra Mocha options" with `--compilers js:babel-core/register`
+
+# Further readings
+
+- https://github.com/lmarkus/es6-webstorm
+- https://github.com/rauschma/node-es6-demo
